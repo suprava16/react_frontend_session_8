@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: chocolate;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* justify-content: space-evenly/space-around/space-between/flex-end/flex-start/center; */
+/* align-items: flex-start;
+height: 600px; */
+/* flex-wrap: nowrap; */
+}
+.item{
+  /* width:600px; */
+  padding: 20px;
+  font-size: 30px;
+  background-color: brown;
+  border: 2px solid black;
+
+}
