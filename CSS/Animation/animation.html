@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      height: 200px;
+      width: 200px;
+      background-color: blue;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+
+
+    }
+    @keyframes example{
+      /* from{
+        background-color: blue;
+      }
+      to{
+        background-color: red;
+        height: 300px;
+        width: 250px;
+      } */
+
+      0%{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+      }
+      25%{
+        background-color: rgb(255, 0, 200);
+        width: 230px;
+        height: 230px;
+      }
+      50%{
+        background-color: rgb(255, 81, 0);
+        width: 260px;
+        height: 260px;
+      }
+      75%{
+        background-color: rgb(0, 255, 0);
+        width: 290px;
+        height: 290px;
+      }
+      100%{
+        background-color: rgb(0, 204, 255);
+        width: 350px;
+        height: 350px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
