@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="input_id" oninput="handleInput()">
+  <!-- <input type="text" id="input_id" onchange="handleChange()"> -->
+  <!-- <button onclick="handleClick()">ADD</button> -->
+  <h1 id="text"></h1>
+  <script>
+// function handleClick(){
+//   var a=document.getElementById("input_id").value
+//   document.getElementById("text").innerHTML=a
+// }
+// function handleChange(){
+//   var a=document.getElementById("input_id").value
+//   document.getElementById("text").innerHTML=a
+// }
+function handleInput(){
+  var a=document.getElementById("input_id").value
+  document.getElementById("text").innerHTML=a
+}
+  </script>
+</body>
+</html>
